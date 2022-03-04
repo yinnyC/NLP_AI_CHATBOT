@@ -1,0 +1,47 @@
+1. I change the 2 Hyperparameters input_size, hidden_size from (512,256) to (384,192)
+
+** Before Tuning**
+epoch 40/200, loss=0.2001
+epoch 80/200, loss=0.0212
+epoch 120/200, loss=0.0014
+epoch 160/200, loss=0.0027
+epoch 200/200, loss=0.0023
+
+** After Tuning**
+epoch 40/200, loss=0.2864
+epoch 80/200, loss=0.0190
+epoch 120/200, loss=0.0038
+epoch 160/200, loss=0.0013
+epoch 200/200, loss=0.0004
+
+2. I change the epochs from 200 to 500 and it went up when it's at epoch 500/500.
+
+epoch 100/500, loss=0.0375
+epoch 200/500, loss=0.0014
+epoch 300/500, loss=0.0004
+epoch 400/500, loss=0.0001
+epoch 500/500, loss=0.0003
+
+Change epochs to 450, got an even better number: 0.0002
+epoch 50/450, loss=0.1551
+epoch 100/450, loss=0.0093
+epoch 150/450, loss=0.0027
+epoch 200/450, loss=0.0020
+epoch 250/450, loss=0.0008
+epoch 300/450, loss=0.0007
+epoch 350/450, loss=0.0006
+epoch 400/450, loss=0.0007
+epoch 450/450, loss=0.0002
+
+3. Changed the learning rate to learning_rate = 0.001
+epoch 50/450, loss=0.189393
+epoch 100/450, loss=0.005938
+epoch 150/450, loss=0.002325
+epoch 200/450, loss=0.001468
+epoch 250/450, loss=0.000422
+epoch 300/450, loss=0.000556
+epoch 350/450, loss=0.000221
+epoch 400/450, loss=0.000163
+epoch 450/450, loss=0.000125
+
+Tuned parameters = [input_size, hidden_size, epochs,learning_rate]
