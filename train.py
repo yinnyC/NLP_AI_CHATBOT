@@ -30,7 +30,11 @@ for intent in intents['intents']:
         all_words.extend(w)
         xy.append((w, tag))
 
-
+'''
+References for the implementation of the training and model is from
+The Medium Article: Simple Chatbot using BERT and Pytorch
+Link: https://medium.com/@shrinidhi.rm1990/simple-chatbot-using-bert-and-pytorch-part-1-2735643e0baa
+'''
 # Covert json data to a dataframe
 rows = []
 for intent in intents['intents']:

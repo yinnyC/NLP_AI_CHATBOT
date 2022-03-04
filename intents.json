@@ -81,6 +81,48 @@
           "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
           "What did the buffalo say when his son left for college? Bison."
         ]
+      },
+      {
+        "tag": "birthday",
+        "patterns": [
+          "what's your birthday",
+          "when do you celebrate your birthday?",
+          "when were you born",
+          "when is your birthday"
+        ],
+        "responses": [
+          "You know, I'm not really sure. But if you'd like to celebrate my birthday today, I'm all for it.",
+          "Wait a minute. Are you planning a surprise party for me? I love surprises! I'll pretend you didn't say anything."
+        ]
+      },
+      {
+        "tag": "affection",
+        "patterns": [
+          "I am your friend",
+          "I love you",
+          "I am in love with you"
+        ],
+        "responses": [
+          "Thanks! It's my pleasure to help you!",
+          "I'm glad you're here!",
+          "I'm so happy to be here with you!"
+
+        ]
+      },
+      {
+        "tag": "confirmation",
+        "patterns": [
+          "I agree",
+          "I understand",
+          "I agree with you",
+          "confirmed"
+        ],
+        "responses": [
+          "Great!",
+          "Sure",
+          "Indeed"
+        ]
       }
+
     ]
   }

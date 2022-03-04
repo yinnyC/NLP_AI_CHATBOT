@@ -1,0 +1,4 @@
+Now that the model is stored in data.pth, It's easy to intergrate it with Python Flask or Django.
+Simply create a Web App with Flask framwork, and take in the user input from the input form.
+Create a route to handle the response once user submit the form, and intergrate the code in chat.py.
+Once the web app is ready, we can just deploy the whole project onto Heroku.
